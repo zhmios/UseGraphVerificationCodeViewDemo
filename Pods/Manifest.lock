@@ -1,0 +1,16 @@
+PODS:
+  - GraphVerificationCodeView (0.1.5)
+
+DEPENDENCIES:
+  - GraphVerificationCodeView (~> 0.1.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GraphVerificationCodeView
+
+SPEC CHECKSUMS:
+  GraphVerificationCodeView: a1cee18c2abfdc0b7e72d7e61da5b687159278fa
+
+PODFILE CHECKSUM: 9e2d2a9424b4db3b091205ba8cfe373199f53053
+
+COCOAPODS: 1.5.3

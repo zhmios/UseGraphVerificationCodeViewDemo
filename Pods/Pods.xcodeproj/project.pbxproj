@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B50D1F2C16979E8DD0C704C40278C9C /* Pods-UseGraphVerificationCodeViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3D4CC6E8C0AB9EE06452D3A706FED /* Pods-UseGraphVerificationCodeViewDemo-dummy.m */; };
+		50F578C46BDE447D1E8F5C102CC6ABAA /* GraphVerificationCodeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A554808E5B29508D17BFFF6947B9464B /* GraphVerificationCodeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5112E5746F5698C8B57A851EB1CD48F9 /* Pods-UseGraphVerificationCodeViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A69EAC224BC593C98F894604BE2D7B3 /* Pods-UseGraphVerificationCodeViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60F530A776A78B92EF5E9C7C59027469 /* GraphVerificationCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DFE50165BEA65003D8062EE9AB507C /* GraphVerificationCodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85D171420BA71075E7756BB437991770 /* GraphVerificationCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54745204C3D53D0C8D3A94D0B12E676B /* GraphVerificationCodeView.m */; };
+		8AA4C0159FA2A77407DAAC05F6B5D357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		A63B70A08E2A3D1DDA5EE102A01B22FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		AAFDA2B8C946226C7555B1FC969ECCCB /* GraphVerificationCodeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E66D62D7107196FB10E9342BE0A2BF2 /* GraphVerificationCodeView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6CB52EAEF91393F9AD6FD4FD38089B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018A490D504A5A2667162A7001B12FA3;
+			remoteInfo = GraphVerificationCodeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049288BBF1AED67264160C962F03DEBF /* GraphVerificationCodeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GraphVerificationCodeView.xcconfig; sourceTree = "<group>"; };
+		0E66D62D7107196FB10E9342BE0A2BF2 /* GraphVerificationCodeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GraphVerificationCodeView-dummy.m"; sourceTree = "<group>"; };
+		178561AE2B7AD13CE26D578AC607DD0D /* Pods-UseGraphVerificationCodeViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UseGraphVerificationCodeViewDemo.modulemap"; sourceTree = "<group>"; };
+		2FB3D4CC6E8C0AB9EE06452D3A706FED /* Pods-UseGraphVerificationCodeViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UseGraphVerificationCodeViewDemo-dummy.m"; sourceTree = "<group>"; };
+		54745204C3D53D0C8D3A94D0B12E676B /* GraphVerificationCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GraphVerificationCodeView.m; path = GraphVerificationCodeView/Classes/GraphVerificationCodeView.m; sourceTree = "<group>"; };
+		5A69EAC224BC593C98F894604BE2D7B3 /* Pods-UseGraphVerificationCodeViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UseGraphVerificationCodeViewDemo-umbrella.h"; sourceTree = "<group>"; };
+		6852348ED3923AF0C3AC762B83B3C708 /* Pods_UseGraphVerificationCodeViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UseGraphVerificationCodeViewDemo.framework; path = "Pods-UseGraphVerificationCodeViewDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8BC99496F3FB81D55EC8060D26C137 /* Pods-UseGraphVerificationCodeViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UseGraphVerificationCodeViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		842D5EA51778366F4EE6F284D813A6D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96DFE50165BEA65003D8062EE9AB507C /* GraphVerificationCodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GraphVerificationCodeView.h; path = GraphVerificationCodeView/Classes/GraphVerificationCodeView.h; sourceTree = "<group>"; };
+		9972F78DF8C95AC917D99966F6755B8E /* GraphVerificationCodeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GraphVerificationCodeView-prefix.pch"; sourceTree = "<group>"; };
+		9B17F6134D9E280FBCA919B6189FE0F4 /* Pods-UseGraphVerificationCodeViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UseGraphVerificationCodeViewDemo-resources.sh"; sourceTree = "<group>"; };
+		A450F48DB457E65FDD22FAA302D7AF37 /* Pods-UseGraphVerificationCodeViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UseGraphVerificationCodeViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A554808E5B29508D17BFFF6947B9464B /* GraphVerificationCodeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GraphVerificationCodeView-umbrella.h"; sourceTree = "<group>"; };
+		A94EBB8DCBA14F5E3DF2079CD18EAAD4 /* Pods-UseGraphVerificationCodeViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UseGraphVerificationCodeViewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		B6919FED2C58B7BC34CF9A850F7B42EE /* GraphVerificationCodeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GraphVerificationCodeView.framework; path = GraphVerificationCodeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E261026E9F55BC8A4F2F4C56F083B208 /* Pods-UseGraphVerificationCodeViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UseGraphVerificationCodeViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E38EC9145D700841E13AE7DD57BDF4EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6EEAD6ACE05B5A7B481A3BBA5BFD232 /* Pods-UseGraphVerificationCodeViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UseGraphVerificationCodeViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F1998792A23C3B0FA0F8346707E65C47 /* GraphVerificationCodeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GraphVerificationCodeView.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04555F40152B335B5B0D26D0AD612474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA4C0159FA2A77407DAAC05F6B5D357 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E926640A4B652B39D4E4CEA988F7764E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63B70A08E2A3D1DDA5EE102A01B22FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FEA7E1AA79006C0D53A2BB1D429CE17 /* GraphVerificationCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				96DFE50165BEA65003D8062EE9AB507C /* GraphVerificationCodeView.h */,
+				54745204C3D53D0C8D3A94D0B12E676B /* GraphVerificationCodeView.m */,
+				7934E2E8593425592D1561A11AFE4861 /* Support Files */,
+			);
+			name = GraphVerificationCodeView;
+			path = GraphVerificationCodeView;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7934E2E8593425592D1561A11AFE4861 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1998792A23C3B0FA0F8346707E65C47 /* GraphVerificationCodeView.modulemap */,
+				049288BBF1AED67264160C962F03DEBF /* GraphVerificationCodeView.xcconfig */,
+				0E66D62D7107196FB10E9342BE0A2BF2 /* GraphVerificationCodeView-dummy.m */,
+				9972F78DF8C95AC917D99966F6755B8E /* GraphVerificationCodeView-prefix.pch */,
+				A554808E5B29508D17BFFF6947B9464B /* GraphVerificationCodeView-umbrella.h */,
+				E38EC9145D700841E13AE7DD57BDF4EF /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GraphVerificationCodeView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B999E2C3280D43BD303A3EAB38342634 /* Pods */,
+				CEC9A0D3A965D9181436CB3E009F427F /* Products */,
+				8A1E7F3A007C3C55FA893B871F6939A6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A1E7F3A007C3C55FA893B871F6939A6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB620122A413CCA8AE2216A6799FF385 /* Pods-UseGraphVerificationCodeViewDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B999E2C3280D43BD303A3EAB38342634 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FEA7E1AA79006C0D53A2BB1D429CE17 /* GraphVerificationCodeView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC9A0D3A965D9181436CB3E009F427F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6919FED2C58B7BC34CF9A850F7B42EE /* GraphVerificationCodeView.framework */,
+				6852348ED3923AF0C3AC762B83B3C708 /* Pods_UseGraphVerificationCodeViewDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB620122A413CCA8AE2216A6799FF385 /* Pods-UseGraphVerificationCodeViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				842D5EA51778366F4EE6F284D813A6D3 /* Info.plist */,
+				178561AE2B7AD13CE26D578AC607DD0D /* Pods-UseGraphVerificationCodeViewDemo.modulemap */,
+				E261026E9F55BC8A4F2F4C56F083B208 /* Pods-UseGraphVerificationCodeViewDemo-acknowledgements.markdown */,
+				6A8BC99496F3FB81D55EC8060D26C137 /* Pods-UseGraphVerificationCodeViewDemo-acknowledgements.plist */,
+				2FB3D4CC6E8C0AB9EE06452D3A706FED /* Pods-UseGraphVerificationCodeViewDemo-dummy.m */,
+				A94EBB8DCBA14F5E3DF2079CD18EAAD4 /* Pods-UseGraphVerificationCodeViewDemo-frameworks.sh */,
+				9B17F6134D9E280FBCA919B6189FE0F4 /* Pods-UseGraphVerificationCodeViewDemo-resources.sh */,
+				5A69EAC224BC593C98F894604BE2D7B3 /* Pods-UseGraphVerificationCodeViewDemo-umbrella.h */,
+				E6EEAD6ACE05B5A7B481A3BBA5BFD232 /* Pods-UseGraphVerificationCodeViewDemo.debug.xcconfig */,
+				A450F48DB457E65FDD22FAA302D7AF37 /* Pods-UseGraphVerificationCodeViewDemo.release.xcconfig */,
+			);
+			name = "Pods-UseGraphVerificationCodeViewDemo";
+			path = "Target Support Files/Pods-UseGraphVerificationCodeViewDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36EAE5C8DDD915D7E3C19B15E3FD1FC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F578C46BDE447D1E8F5C102CC6ABAA /* GraphVerificationCodeView-umbrella.h in Headers */,
+				60F530A776A78B92EF5E9C7C59027469 /* GraphVerificationCodeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6D81F97A142847F59C7B1CC646A811 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5112E5746F5698C8B57A851EB1CD48F9 /* Pods-UseGraphVerificationCodeViewDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		018A490D504A5A2667162A7001B12FA3 /* GraphVerificationCodeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A226A10C063C1B1FFF8AF221A47ECAC7 /* Build configuration list for PBXNativeTarget "GraphVerificationCodeView" */;
+			buildPhases = (
+				36EAE5C8DDD915D7E3C19B15E3FD1FC0 /* Headers */,
+				1576D034232F10F71E8A316F563191D3 /* Sources */,
+				04555F40152B335B5B0D26D0AD612474 /* Frameworks */,
+				E368743A02CD59E890717EBEDBE4EC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphVerificationCodeView;
+			productName = GraphVerificationCodeView;
+			productReference = B6919FED2C58B7BC34CF9A850F7B42EE /* GraphVerificationCodeView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C85EEAAD479646107423733B6AA6E61 /* Pods-UseGraphVerificationCodeViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDDEB919150BC240A3827E8BC21428E /* Build configuration list for PBXNativeTarget "Pods-UseGraphVerificationCodeViewDemo" */;
+			buildPhases = (
+				8F6D81F97A142847F59C7B1CC646A811 /* Headers */,
+				E4A15BC3FCCC8B9A98FAEC27F1FDE834 /* Sources */,
+				E926640A4B652B39D4E4CEA988F7764E /* Frameworks */,
+				72D4E25DAED5FADB0A1007C675205047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2DCF43BC8E6CA381312E6FD3A4D41FB /* PBXTargetDependency */,
+			);
+			name = "Pods-UseGraphVerificationCodeViewDemo";
+			productName = "Pods-UseGraphVerificationCodeViewDemo";
+			productReference = 6852348ED3923AF0C3AC762B83B3C708 /* Pods_UseGraphVerificationCodeViewDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CEC9A0D3A965D9181436CB3E009F427F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				018A490D504A5A2667162A7001B12FA3 /* GraphVerificationCodeView */,
+				4C85EEAAD479646107423733B6AA6E61 /* Pods-UseGraphVerificationCodeViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72D4E25DAED5FADB0A1007C675205047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E368743A02CD59E890717EBEDBE4EC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1576D034232F10F71E8A316F563191D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFDA2B8C946226C7555B1FC969ECCCB /* GraphVerificationCodeView-dummy.m in Sources */,
+				85D171420BA71075E7756BB437991770 /* GraphVerificationCodeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A15BC3FCCC8B9A98FAEC27F1FDE834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B50D1F2C16979E8DD0C704C40278C9C /* Pods-UseGraphVerificationCodeViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2DCF43BC8E6CA381312E6FD3A4D41FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GraphVerificationCodeView;
+			target = 018A490D504A5A2667162A7001B12FA3 /* GraphVerificationCodeView */;
+			targetProxy = D6CB52EAEF91393F9AD6FD4FD38089B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		033ED129DDFADEFC2E1C11ECE2F6DE52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A450F48DB457E65FDD22FAA302D7AF37 /* Pods-UseGraphVerificationCodeViewDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UseGraphVerificationCodeViewDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UseGraphVerificationCodeViewDemo/Pods-UseGraphVerificationCodeViewDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B0A9E526D1CB994DC514051B5D075412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6EEAD6ACE05B5A7B481A3BBA5BFD232 /* Pods-UseGraphVerificationCodeViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UseGraphVerificationCodeViewDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UseGraphVerificationCodeViewDemo/Pods-UseGraphVerificationCodeViewDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7C5ADD529116ABC27C9A5FC47D9E5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049288BBF1AED67264160C962F03DEBF /* GraphVerificationCodeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GraphVerificationCodeView/GraphVerificationCodeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GraphVerificationCodeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GraphVerificationCodeView/GraphVerificationCodeView.modulemap";
+				PRODUCT_MODULE_NAME = GraphVerificationCodeView;
+				PRODUCT_NAME = GraphVerificationCodeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E85359B1A893A4AD19D0B9383E8ACAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049288BBF1AED67264160C962F03DEBF /* GraphVerificationCodeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GraphVerificationCodeView/GraphVerificationCodeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GraphVerificationCodeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GraphVerificationCodeView/GraphVerificationCodeView.modulemap";
+				PRODUCT_MODULE_NAME = GraphVerificationCodeView;
+				PRODUCT_NAME = GraphVerificationCodeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73625DEBD810B78234FA1958C191C8C /* Debug */,
+				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A226A10C063C1B1FFF8AF221A47ECAC7 /* Build configuration list for PBXNativeTarget "GraphVerificationCodeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C5ADD529116ABC27C9A5FC47D9E5B1 /* Debug */,
+				E85359B1A893A4AD19D0B9383E8ACAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDDEB919150BC240A3827E8BC21428E /* Build configuration list for PBXNativeTarget "Pods-UseGraphVerificationCodeViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A9E526D1CB994DC514051B5D075412 /* Debug */,
+				033ED129DDFADEFC2E1C11ECE2F6DE52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
